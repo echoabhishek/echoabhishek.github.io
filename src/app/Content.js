@@ -8,29 +8,33 @@ import SkillsIcon from '../static/icons/SkillsIcon';
 import Home from '../components/Home';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import '../www/main.css';
 
 class Content extends React.Component {
     render() {
         return (
-            <div> {/* style={styles.container}> */}
+            <div>
                 <Router>
                 <div>
-                    <ul>
-                        <Button>
-                            <HomeIcon />
-                            <Link to='/home' />
+                    <ul className='navbar'>
+                        <Link className='navlink' to='/home'>
+                            <Button className='navbutton'>
+                                <HomeIcon />
+                            </Button>
                             Home
-                        </Button>
-                        <Button>
-                            <AboutIcon />
-                            <Link to='/about' />
+                        </Link>
+                        <Link className='navlink' to='/about'>
+                            <Button className='navbutton'>
+                                <AboutIcon />
+                            </Button>
                             About
-                        </Button>
-                        <Button>
-                            <SkillsIcon />
-                            <Link to='/skills' />
+                        </Link>
+                        <Link className='navlink' to='/skills'>
+                            <Button className='navbutton'>
+                                <SkillsIcon />
+                            </Button>
                             Skills
-                        </Button>
+                        </Link>
                     </ul>
 
                     <Route exact path='/' component={Home}/>

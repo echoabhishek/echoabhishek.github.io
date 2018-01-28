@@ -1,15 +1,13 @@
 import React from 'react';
-
-// const styles = {
-//   container: {
-//     textAlign: 'center',
-//     paddingTop: 200,
-//   },
-// };
+import ContentWrapper from './ContentWrapper';
 
 const About = () => (
     <div>
-        <p>About</p>
+        <ContentWrapper
+            title='About Me'
+        >
+            <p>About</p>
+        </ContentWrapper>
     </div>
 );
 
