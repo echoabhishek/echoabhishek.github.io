@@ -8,6 +8,7 @@ import Dialog from 'material-ui/Dialog';
 import {deepOrange500} from 'material-ui/styles/colors';
 import FlatButton from 'material-ui/FlatButton';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import createPalette from 'material-ui/styles/createPalette';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 const styles = {
@@ -18,9 +19,9 @@ const styles = {
 };
 
 const muiTheme = getMuiTheme({
-  palette: {
+  palette: createPalette({
     accent1Color: deepOrange500,
-  },
+  })
 });
 
 class Main extends Component {

@@ -1,16 +1,18 @@
 {
-  "name": "material-ui-example-webpack",
-  "version": "0.16.4",
+  "name": "abhishekarora.github.io",
+  "version": "1.0.0",
   "description": "Sample project that uses Material-UI",
+  "author": "Abhishek Arora",
   "repository": {
     "type": "git",
-    "url": "https://github.com/callemall/material-ui.git"
+    "url": "https://github.com/echoabhishek/abhishekarora.github.io.git"
   },
   "scripts": {
-    "start": "webpack-dev-server --config webpack-dev-server.config.js --progress --inline --colors",
-    "build": "webpack --config webpack-production.config.js --progress --colors"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "private": true,
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-loader": "^7.0.0",
@@ -23,9 +25,13 @@
     "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
-    "material-ui": "latest",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-tap-event-plugin": "^2.0.1"
+    "material-ui": "next",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "latest",
+    "react-scrolling-container": "^1.0.1"
   }
 }
