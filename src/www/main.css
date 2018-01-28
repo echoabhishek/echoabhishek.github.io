@@ -1,8 +1,13 @@
 html {
   font-family: 'Roboto', sans-serif;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 body {
+  color: #666666;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 23px;
+  background: '#ffff';
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
