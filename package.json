@@ -5,9 +5,9 @@
   "author": "Abhishek Arora",
   "repository": {
     "type": "git",
-    "url": "https://github.com/echoabhishek/abhishekarora.github.io.git"
+    "url": "https://github.com/echoabhishek/echoabhishek.github.io.git"
   },
-  "homepage": "https://abhishekarora.github.io",
+  "homepage": "https://echoabhishek.github.io/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
