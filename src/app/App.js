@@ -5,10 +5,10 @@ import withRoot from '../withRoot';
 import '../www/main.css';
 
 const App = () => (
-    <div>
-        <Header />
-        <Content />
-    </div>
+  <div>
+    <Header />
+    <Content />
+  </div>
 );
-  
+
 export default withRoot(App);
