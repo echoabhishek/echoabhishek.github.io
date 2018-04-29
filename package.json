@@ -29,11 +29,11 @@
   },
   "dependencies": {
     "gh-pages": "^1.1.0",
-    "material-design-icons": "^3.0.1",
     "material-ui": "next",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-icons": "^2.2.7",
     "react-router-dom": "^4.2.2",
     "react-scripts": "latest",
     "react-scrolling-container": "^1.0.1"

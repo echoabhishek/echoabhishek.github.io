@@ -1,5 +1,6 @@
 import React from 'react';
 import NavButton from './NavButton';
+import { MdHome, MdPerson, MdBuild, MdGavel, MdDonutLarge, MdInsertDriveFile, MdChatBubble, MdFace } from 'react-icons/lib/md';
 import withStyles from 'material-ui/styles/withStyles';
 
 const Navbar = (props) => {
@@ -9,42 +10,42 @@ const Navbar = (props) => {
       <NavButton
         title='HOME'
         to='/home'>
-        <i class='material-icons md-dark'>home</i>
+        <MdHome size={24} />
       </NavButton>
       <NavButton
         title='ABOUT'
         to='/about'>
-        <i class='material-icons md-dark'>person</i>
+        <MdPerson size={24} />
       </NavButton>
       <NavButton
         title='SKILLS'
         to='/skills'>
-        <i class='material-icons md-dark'>build</i>
+        <MdBuild size={24} />
       </NavButton>
       <NavButton
         title='PROJECTS'
         to='/projects'>
-        <i class='material-icons md-dark'>gavel</i>
+        <MdGavel size={24} />
       </NavButton>
       <NavButton
         title='MILESTONE'
         to='/milestone'>
-        <i class='material-icons md-dark'>donut_large</i>
+        <MdDonutLarge size={24} />
       </NavButton>
       <NavButton
         title='RESUME'
         to='/resume'>
-        <i class='material-icons md-dark'>insert_drive_file</i>
+        <MdInsertDriveFile size={24} />
       </NavButton>
       <NavButton
         title='CONTACT'
         to='/contact'>
-        <i class='material-icons md-dark'>chat_bubble</i>
+        <MdChatBubble size={24} />
       </NavButton>
       <NavButton
         title='BLOG'
         to='/blog'>
-        <i class='material-icons md-dark'>face</i>
+        <MdFace size={24} />
       </NavButton>
     </ul>
   );
